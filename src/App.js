@@ -5,7 +5,8 @@ import Hero from './components/Hero/Hero';
 import NavBar from './components/NavBar/NavBar';
 import Section from './components/Section/Section';
 import styles from "./App.module.css";
-
+import CustomAccordion from './components/Accordion/CustomAccordion';
+import {accordionData} from './config/helper-config';
 function App() {
 const [topAlbumsData,setTopAlbumsData] = useState([]);
 const [newAlbumsData,setNewAlbumsData] = useState([]);
@@ -41,6 +42,17 @@ const [newAlbumsData,setNewAlbumsData] = useState([]);
       <div className={styles.sectionWrapper}>
       <Section type="album" title="Top Albums" data={topAlbumsData} />
       <Section type="album" title="New Albums" data={newAlbumsData} />
+    </div>
+    <hr className={styles.line}></hr>
+    <div className={styles.customAccordionWrapper}>
+      <h1 className={styles.accordionHeader}>FQA</h1>
+       {accordionData?.length ? (
+        accordionData.map((each, index) => {
+          return <CustomAccordion key={index} data={each}/>
+        })
+       ) : (
+        <></>
+       )}
     </div>
     </div>
   );

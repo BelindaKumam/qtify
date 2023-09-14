@@ -7,3 +7,17 @@
     width: 97vw;
     padding: 0px 32px;
 }
+
+@media (max-width: 576px) {
+	.navbar {
+		height: auto;
+		padding: 1rem;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 913px) {
+	.navbar {
+		padding: 20px;
+	}
+}

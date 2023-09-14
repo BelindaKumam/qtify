@@ -21,3 +21,24 @@
     border-left: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 913px) {
+	.wrapper {
+		width: 100vw;
+		margin: auto auto;
+		font-family: "poppins", sans-serif;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 48px;
+		border: none;
+	}
+
+	.searchButton {
+		border-radius: 0;
+	}
+
+	.search {
+		border-radius: 0px;
+	}
+}
