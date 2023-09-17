@@ -1,3 +1,5 @@
+export const allSongsTabs = ["All", "Rock", "Pop", "Jazz", "Blues"];
+
 export const accordionData = [
     {
         id: 1,

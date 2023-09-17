@@ -1,4 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 .sectionWrapper {
+	font-family: "Poppins", sans-serif;
+	width: 87vw;
+	margin: auto auto;
+	z-index: 3;
+	margin-bottom: 10px;
+
     padding: 0px 30px 60px;
     display: flex;
     flex-direction: column;
@@ -35,14 +43,18 @@ hr.line {
 	line-height: normal;
 }
 
-@media only screen and (min-width: 913px) {
-	.landingPageSearchWrapper {
-		display: none;
-	}
+.filterSongsWrapper {
+	font-family: "Poppins", sans-serif;
+	width: 87vw;
+	margin: auto auto;
 }
 
-@media only screen and (max-width: 913px) {
-	.landingPageSearchWrapper {
-		width: 100%;
-	}
+.tabsTitle {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	color: var(--color-white);
 }
+

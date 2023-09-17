@@ -3,6 +3,7 @@
 }
 
 .leftNavigation {
+    cursor: pointer;
     position: absolute;
     left: 10px;
     top: 40%;
@@ -11,6 +12,7 @@
 }
 
 .rightNavigation {
+    cursor: pointer;
     position: absolute;
     right: 10px;
     top: 40%;
