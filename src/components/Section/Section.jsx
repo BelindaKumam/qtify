@@ -3,7 +3,6 @@ import { CircularProgress } from "@mui/material";
 import Card from "../Card/Card";
 import styles from "./Section.module.css";
 import Carousel from "../Carousel/Carousel";
-import FilterTabs from "../FilterTabs/FilterTabs";
 
 const Section = ({ title, data, type, header }) => {
     const [carouselToggle, setCarouselToggle] = useState(true);
