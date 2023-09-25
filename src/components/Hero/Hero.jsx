@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1>Over thousands podcast episodes</h1>
             </div>
             <div>
-                <img src={heroImg} alt='headphones' width={212}/>
+                <img src={heroImg} alt='headphones'  height={212} width={212}/>
             </div>
         </div>
     )
